@@ -3,16 +3,29 @@
   max-height: 650px;
 }
 
+.brand {
+  background: rgb(74, 161, 3);
+}
+
+.brand-text {
+  color: rgb(74, 161, 3);
+}
+
+#menu-gn {
+  rgb(74, 161, 3);
+}
+
 #omnia-logo {
   width: 175px;
 }
 
 .brand-gn {
-  color: #a3c962;
+  color: rgb(115, 252, 2);
+  ;
 }
 
-.brand-blue {
-  color: blue;
+.brand-bl {
+  color: blue !important;
 }
 
 /****************************************************/
@@ -127,7 +140,7 @@ ul li {
 
 h6.title-top-txt {
   font-size: 20px;
-  color: #a3c962;
+  color: rgb(74, 161, 3);
   font-weight: 600;
   /* padding-bottom: 5px; */
 }
@@ -168,11 +181,9 @@ h6.title-top-txt {
 /*-- header --*/
 .header-outs {
   position: relative;
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.582),
-      rgba(46, 46, 46, 0.342)
-    ),
+      rgba(46, 46, 46, 0.342)),
     url(../images/hero-img.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -274,7 +285,7 @@ nav ul ul {
 }
 
 /* Display Dropdowns on Hover */
-nav ul li:hover > ul {
+nav ul li:hover>ul {
   display: inherit;
 }
 
@@ -301,7 +312,7 @@ top:-60px;
 /*left:170px; 
 } */
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:only-child:after {
+li>a:only-child:after {
   content: "";
 }
 
@@ -322,7 +333,7 @@ li > a:only-child:after {
 
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle + a,
+  .toggle+a,
   .menu {
     display: none;
   }
@@ -338,7 +349,8 @@ li > a:only-child:after {
     cursor: pointer;
     border: none;
     float: right;
-    background-color: #a3c962;
+    background-color: rgb(74, 161, 3);
+    ;
     color: #fff;
   }
 
@@ -359,7 +371,7 @@ li > a:only-child:after {
   }
 
   /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked + ul {
+  [id^="drop"]:checked+ul {
     display: block;
     background: #fff;
     padding: 15px 0;
@@ -409,8 +421,8 @@ li > a:only-child:after {
   }
 
   /* Hide menus on hover */
-  nav ul ul li:hover > ul,
-  nav ul li:hover > ul {
+  nav ul ul li:hover>ul,
+  nav ul li:hover>ul {
     display: none;
   }
 
@@ -473,18 +485,18 @@ button.sent-butnn {
   outline: none;
   border-radius: 20px;
   padding: 8px 20px;
-  border: 2px solid #fff;
+
 }
 
 .view-buttn a,
 button.sent-butnn {
-  background-color: #a3c962;
+  background-color: blue;
   color: #fff;
 }
 
 .read-buttn a {
-  background: #fff;
-  color: #a3c962;
+  background: rgb(74, 161, 3);
+  color: #ffffff;
   margin-right: 22px;
 }
 
@@ -538,7 +550,7 @@ button.sent-butnn:hover {
   left: 0;
 }
 
-.progress > span {
+.progress>span {
   width: 50%;
   height: 100%;
   overflow: hidden;
@@ -1130,14 +1142,11 @@ a.move-top {
 }
 
 /*--responsive--*/
-@media (max-width: 1920px) {
-}
+@media (max-width: 1920px) {}
 
-@media (max-width: 1680px) {
-}
+@media (max-width: 1680px) {}
 
-@media (max-width: 1600px) {
-}
+@media (max-width: 1600px) {}
 
 @media (max-width: 1440px) {
   .header-outs {
@@ -1349,6 +1358,7 @@ a.move-top {
 }
 
 @media (max-width: 1024px) {
+
   .read-buttn a,
   .view-buttn a,
   button.sent-butnn {
