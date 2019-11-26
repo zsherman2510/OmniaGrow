@@ -12,7 +12,7 @@
 }
 
 #menu-gn {
-  rgb(74, 161, 3);
+  color: rgb(74, 161, 3);
 }
 
 #omnia-logo {
@@ -184,7 +184,7 @@ h6.title-top-txt {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.582),
       rgba(46, 46, 46, 0.342)),
-    url(../images/hero-img.jpg) no-repeat center;
+    url(../images/hero-img-min.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -831,6 +831,7 @@ button.sent-butnn:hover {
 /*-- team-- */
 .team {
   background: url(../images/b3.jpg) no-repeat 0px 0px;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
