@@ -3,29 +3,33 @@
   max-height: 650px;
 }
 
+.sub-text {
+  letter-spacing: 1px;
+}
+
 .brand {
-  background: rgb(74, 161, 3);
+  background: #67cc53;
 }
 
 .brand-text {
-  color: rgb(74, 161, 3) !important;
+  color: #67cc53 !important;
 }
 
 #menu-gn {
-  color: rgb(74, 161, 3);
+  color: #fff;
+  margin-top: 25px;
 }
 
 #omnia-logo {
-  width: 175px;
+  width: 225px;
 }
 
 .brand-gn {
-  color: rgb(115, 252, 2);
-  ;
+  color: #67cc53;
 }
 
 .brand-bl {
-  color: blue !important;
+  color: rgb(67, 67, 218) !important;
 }
 
 /****************************************************/
@@ -51,7 +55,6 @@ body {
   margin: 0;
   background: #fff;
   letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
 }
 
 body a {
@@ -145,11 +148,15 @@ h6.title-top-txt {
   /* padding-bottom: 5px; */
 }
 
+#top-mid-text {
+  width: 566px;
+}
+
 .title-mid-text p {
   font-size: 15px;
   color: #676662;
   letter-spacing: 1px;
-  padding: 10px 0px;
+  padding: 10px 0;
   line-height: 28px;
 }
 
@@ -157,8 +164,12 @@ h6.title-top-txt {
   color: #fff;
 }
 
+#features-txt {
+  color: #fff;
+}
+
 .clr-para p {
-  color: #d8d8d8;
+  color: #131313;
 }
 
 .about-right-grid p,
@@ -181,9 +192,11 @@ h6.title-top-txt {
 /*-- header --*/
 .header-outs {
   position: relative;
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       rgba(0, 0, 0, 0.582),
-      rgba(46, 46, 46, 0.342)),
+      rgba(46, 46, 46, 0.342)
+    ),
     url(../images/hero-img-min.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -285,7 +298,7 @@ nav ul ul {
 }
 
 /* Display Dropdowns on Hover */
-nav ul li:hover>ul {
+nav ul li:hover > ul {
   display: inherit;
 }
 
@@ -312,7 +325,7 @@ top:-60px;
 /*left:170px; 
 } */
 /* Change ' +' in order to change the Dropdown symbol */
-li>a:only-child:after {
+li > a:only-child:after {
   content: "";
 }
 
@@ -333,7 +346,7 @@ li>a:only-child:after {
 
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle+a,
+  .toggle + a,
   .menu {
     display: none;
   }
@@ -350,7 +363,6 @@ li>a:only-child:after {
     border: none;
     float: right;
     background-color: rgb(74, 161, 3);
-    ;
     color: #fff;
   }
 
@@ -371,7 +383,7 @@ li>a:only-child:after {
   }
 
   /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked+ul {
+  [id^="drop"]:checked + ul {
     display: block;
     background: #fff;
     padding: 15px 0;
@@ -421,8 +433,8 @@ li>a:only-child:after {
   }
 
   /* Hide menus on hover */
-  nav ul ul li:hover>ul,
-  nav ul li:hover>ul {
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul {
     display: none;
   }
 
@@ -448,11 +460,11 @@ li>a:only-child:after {
 
 /*-- banner --*/
 .slide-info {
-  padding: 19em 0 0;
+  padding: 30em 0 0;
 }
 
-.banner-top-grid h4 {
-  font-size: 30px;
+.banner-top-grid {
+  font-size: 42px;
   color: #fff;
   letter-spacing: 2px;
 }
@@ -467,9 +479,9 @@ li>a:only-child:after {
 
 .slide-info-txt p {
   color: #dadada;
-  font-size: 15px;
-  text-shadow: 2px 2px 8px #000;
-  line-height: 27px;
+  font-size: 22px;
+  margin-top: 20px;
+  line-height: 30px;
   letter-spacing: 0px;
   padding: 0em 9em;
 }
@@ -477,31 +489,40 @@ li>a:only-child:after {
 .read-buttn a,
 .view-buttn a,
 button.sent-butnn {
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   text-transform: capitalize;
   display: inline-block;
   letter-spacing: 2px;
   outline: none;
   border-radius: 20px;
-  padding: 8px 20px;
-
+  padding: 12px 40px;
+  margin: 30px 10px;
+  border: 1px solid #fff;
 }
 
 .view-buttn a,
 button.sent-butnn {
-  background-color: blue;
+  background-color: rgb(67, 67, 218);
   color: #fff;
 }
 
 .read-buttn a {
-  background: rgb(74, 161, 3);
-  color: #ffffff;
+  background: rgb(50, 138, 0);
+  color: #eee;
   margin-right: 22px;
 }
 
-.read-buttn a:hover,
-.view-buttn a:hover,
+.view-buttn a:hover {
+  background: rgb(235, 235, 235);
+  color: rgb(67, 67, 218);
+}
+
+.read-buttn a:hover {
+  background: #eee;
+  color: rgb(50, 138, 0);
+}
+
 button.sent-butnn:hover {
   background: #000;
   color: #fff;
@@ -518,7 +539,7 @@ button.sent-butnn:hover {
 .about-right-grid h5 {
   font-size: 24px;
   color: #000;
-  letter-spacing: 2px;
+
   font-weight: 200;
   line-height: 34px;
 }
@@ -550,7 +571,7 @@ button.sent-butnn:hover {
   left: 0;
 }
 
-.progress>span {
+.progress > span {
   width: 50%;
   height: 100%;
   overflow: hidden;
@@ -721,7 +742,21 @@ button.sent-butnn:hover {
 /* --//about-- */
 /* --serviice-- */
 .service {
-  background: url(../images/s1.jpg) no-repeat center;
+  background-color: gainsboro;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+}
+
+.cannabis-bkgd {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.795),
+      rgba(46, 46, 46, 0.342)
+    ),
+    url(../images/vineyeard-min.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -730,7 +765,7 @@ button.sent-butnn:hover {
 }
 
 .grid-tree-service {
-  background: rgb(255, 255, 255);
+  background: #fff;
   padding: 2em 1.5em;
   box-shadow: -1px 0px 1px black;
   transition: 0.5s all;
@@ -765,7 +800,7 @@ button.sent-butnn:hover {
 .footer-contact-list h6 {
   font-size: 22px;
   font-weight: 700;
-  color: #a3c962;
+  color: #67cc53;
 }
 
 .stat-info h4 {
@@ -952,7 +987,7 @@ button.sent-butnn:hover {
 .stats,
 .video,
 footer {
-  background: #a3c962;
+  background: rgb(50, 138, 0);
 }
 
 .count-icon span {
@@ -1143,11 +1178,14 @@ a.move-top {
 }
 
 /*--responsive--*/
-@media (max-width: 1920px) {}
+@media (max-width: 1920px) {
+}
 
-@media (max-width: 1680px) {}
+@media (max-width: 1680px) {
+}
 
-@media (max-width: 1600px) {}
+@media (max-width: 1600px) {
+}
 
 @media (max-width: 1440px) {
   .header-outs {
@@ -1217,7 +1255,7 @@ a.move-top {
   }
 
   h6.title-top-txt {
-    font-size: 19px;
+    font-size: 30px;
   }
 
   .progress {
@@ -1359,7 +1397,6 @@ a.move-top {
 }
 
 @media (max-width: 1024px) {
-
   .read-buttn a,
   .view-buttn a,
   button.sent-butnn {
@@ -1559,10 +1596,14 @@ a.move-top {
 
 @media (max-width: 768px) {
   .slide-info {
-    padding: 9em 0 0;
+    padding: 10em 0 0;
   }
 
-  .read-buttn a {
+  .title-mid-text p {
+    width: auto;
+  }
+
+  p .read-buttn a {
     margin-right: 15px;
   }
 
@@ -1758,7 +1799,7 @@ a.move-top {
   }
 
   h6.title-top-txt {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .price-outs-table h4,
@@ -1798,6 +1839,7 @@ a.move-top {
 
   .about-right-grid h5 {
     font-size: 20px;
+    letter-spacing: 0px;
   }
 
   .popup {
