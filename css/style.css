@@ -776,7 +776,7 @@ button.sent-butnn:hover {
 }
 
 .grid-tree-service:hover {
-  background: #dadada;
+  background: rgb(67, 67, 218);
 }
 
 .grid-tree-service span {
@@ -987,7 +987,7 @@ button.sent-butnn:hover {
 .stats,
 .video,
 footer {
-  background: rgb(50, 138, 0);
+  background: rgb(67, 67, 218);
 }
 
 .count-icon span {
