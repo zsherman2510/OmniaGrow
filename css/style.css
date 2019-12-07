@@ -501,6 +501,10 @@ button.sent-butnn {
   border: 1px solid #fff;
 }
 
+button.sent-butnn {
+  margin: 30px auto !important;
+}
+
 .view-buttn a,
 button.sent-butnn {
   background-color: rgb(67, 67, 218);
@@ -631,11 +635,11 @@ button.sent-butnn:hover {
 }
 
 .progress.blue .progress-bar {
-  border-color: #049dff;
+  border-color: rgb(67, 67, 218);
 }
 
 .progress.blue .progress-value {
-  color: #049dff;
+  color: rgb(67, 67, 218);
 }
 
 .progress.blue .progress-left .progress-bar {
@@ -643,11 +647,11 @@ button.sent-butnn:hover {
 }
 
 .progress.yellow .progress-bar {
-  border-color: #fdba04;
+  border-color: #67cc53;
 }
 
 .progress.yellow .progress-value {
-  color: #fdba04;
+  color: #67cc53;
 }
 
 .progress.yellow .progress-left .progress-bar {
@@ -667,11 +671,11 @@ button.sent-butnn:hover {
 }
 
 .progress.green .progress-bar {
-  border-color: #1abc9c;
+  border-color: #028328cb;
 }
 
 .progress.green .progress-value {
-  color: #1abc9c;
+  color: #028328cb;
 }
 
 .progress.green .progress-left .progress-bar {
@@ -742,7 +746,7 @@ button.sent-butnn:hover {
 /* --//about-- */
 /* --serviice-- */
 .service {
-  background-color: gainsboro;
+  background-color: rgb(239, 239, 239);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -753,10 +757,10 @@ button.sent-butnn:hover {
 .cannabis-bkgd {
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.795),
-      rgba(46, 46, 46, 0.342)
+      rgba(0, 0, 0, 0.562),
+      rgba(255, 255, 255, 0)
     ),
-    url(../images/vineyeard-min.jpg) no-repeat center;
+    url(../images/vineyard.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -766,7 +770,20 @@ button.sent-butnn:hover {
 
 .grid-tree-service {
   background: #fff;
-  padding: 2em 1.5em;
+  padding: 1em 1.5em 0em 1.5em;
+  box-shadow: -1px 0px 1px black;
+  height: 138px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.grid-tree-service-cus {
+  background: #fff;
+  padding: 1em 1.5em 0em 1.5em;
+  height: 138px;
   box-shadow: -1px 0px 1px black;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -1273,7 +1290,11 @@ a.move-top {
   }
 
   .grid-tree-service span {
-    font-size: 35px;
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+  .grid-tree-service-cus {
     margin-bottom: 16px;
   }
 
@@ -1522,7 +1543,7 @@ a.move-top {
   }
 
   .grid-tree-service span {
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 13px;
   }
 
@@ -1794,7 +1815,7 @@ a.move-top {
   }
 
   .grid-tree-service span {
-    font-size: 27px;
+    font-size: 40px;
     margin-bottom: 10px;
   }
 
@@ -2078,7 +2099,7 @@ a.move-top {
   }
 
   .grid-tree-service span {
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 8px;
   }
 
