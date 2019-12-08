@@ -192,11 +192,9 @@ h6.title-top-txt {
 /*-- header --*/
 .header-outs {
   position: relative;
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.582),
-      rgba(46, 46, 46, 0.342)
-    ),
+      rgba(46, 46, 46, 0.342)),
     url(../images/hero-img-min.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -298,7 +296,7 @@ nav ul ul {
 }
 
 /* Display Dropdowns on Hover */
-nav ul li:hover > ul {
+nav ul li:hover>ul {
   display: inherit;
 }
 
@@ -325,7 +323,7 @@ top:-60px;
 /*left:170px; 
 } */
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:only-child:after {
+li>a:only-child:after {
   content: "";
 }
 
@@ -346,7 +344,7 @@ li > a:only-child:after {
 
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle + a,
+  .toggle+a,
   .menu {
     display: none;
   }
@@ -383,7 +381,7 @@ li > a:only-child:after {
   }
 
   /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked + ul {
+  [id^="drop"]:checked+ul {
     display: block;
     background: #fff;
     padding: 15px 0;
@@ -433,8 +431,8 @@ li > a:only-child:after {
   }
 
   /* Hide menus on hover */
-  nav ul ul li:hover > ul,
-  nav ul li:hover > ul {
+  nav ul ul li:hover>ul,
+  nav ul li:hover>ul {
     display: none;
   }
 
@@ -460,7 +458,7 @@ li > a:only-child:after {
 
 /*-- banner --*/
 .slide-info {
-  padding: 30em 0 0;
+  padding: 15em 0 0;
 }
 
 .banner-top-grid {
@@ -575,7 +573,7 @@ button.sent-butnn:hover {
   left: 0;
 }
 
-.progress > span {
+.progress>span {
   width: 50%;
   height: 100%;
   overflow: hidden;
@@ -755,11 +753,9 @@ button.sent-butnn:hover {
 }
 
 .cannabis-bkgd {
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.562),
-      rgba(255, 255, 255, 0)
-    ),
+      rgba(255, 255, 255, 0)),
     url(../images/vineyard.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -1195,14 +1191,11 @@ a.move-top {
 }
 
 /*--responsive--*/
-@media (max-width: 1920px) {
-}
+@media (max-width: 1920px) {}
 
-@media (max-width: 1680px) {
-}
+@media (max-width: 1680px) {}
 
-@media (max-width: 1600px) {
-}
+@media (max-width: 1600px) {}
 
 @media (max-width: 1440px) {
   .header-outs {
@@ -1418,6 +1411,7 @@ a.move-top {
 }
 
 @media (max-width: 1024px) {
+
   .read-buttn a,
   .view-buttn a,
   button.sent-butnn {
