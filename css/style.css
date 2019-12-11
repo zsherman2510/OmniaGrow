@@ -1,6 +1,7 @@
 /*******************User changes*****************************/
 #section-2img {
   max-height: 650px;
+
 }
 
 .sub-text {
@@ -8,11 +9,17 @@
 }
 
 .brand {
-  background: #67cc53;
+  background: #48e500;
+  ;
 }
 
 .brand-text {
-  color: #67cc53 !important;
+  color: #48e500 !important;
+}
+
+.in-text-links {
+  text-decoration: underline;
+  color: rgb(67, 67, 218);
 }
 
 #menu-gn {
@@ -24,8 +31,12 @@
   width: 225px;
 }
 
+.omnia-green {
+  color: #48e500;
+}
+
 .brand-gn {
-  color: #50ff00;
+  color: #48e500;
 }
 
 .brand-bl {
@@ -134,16 +145,21 @@ ul li {
 
 /*-- //Reset-Code --*/
 .title {
-  font-size: 37px;
+  font-size: 24px;
   color: #000;
   letter-spacing: 2px;
   font-weight: 400;
   text-transform: capitalize;
 }
 
+.sub-text {
+  font-size: 22px;
+  color: #fff;
+}
+
 h6.title-top-txt {
   font-size: 20px;
-  color: rgb(74, 161, 3);
+  color: #48e500;
   font-weight: 600;
   /* padding-bottom: 5px; */
 }
@@ -195,7 +211,7 @@ h6.title-top-txt {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.582),
       rgba(46, 46, 46, 0.342)),
-    url(../images/hero-img-min.jpg) no-repeat center;
+    url(../images/header-update.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -510,7 +526,7 @@ button.sent-butnn {
 }
 
 .read-buttn a {
-  background: rgb(50, 138, 0);
+  background: rgb(64, 200, 25);
   color: #eee;
   margin-right: 22px;
 }
@@ -525,7 +541,7 @@ button.sent-butnn {
   color: rgb(50, 138, 0);
 }
 
-button.sent-butnn:hover {
+button .sent-butnn:hover {
   background: #000;
   color: #fff;
 }
